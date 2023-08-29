@@ -1,0 +1,68 @@
+/* Write your CSS here */
+.project-Timeline-card-bg-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 450px;
+  }
+  .project-image {
+    height: 200px;
+    width: 450px;
+    border-radius: 10px;
+  }
+  .sub-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    text-align: start;
+    width: 450px;
+    height: auto;
+  }
+  
+  .duration-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    min-width: 50px;
+    margin-top: 0px;
+  }
+  .link-text {
+    font-size: 14px;
+    text-decoration: none;
+    font-family: 'Roboto';
+    font-weight: 500;
+    /* cursor: pointer; */
+  }
+  .visit-button{
+    background-color: transparent;
+    border-radius: 5px;
+    padding: 5px;
+    border: 1px solid #000000;
+    align-self: flex-end;
+    width: 80px;
+    cursor: pointer;
+    &:hover{
+      background-color: #000000;
+    }
+  }
+  .description {
+    text-align: left;
+    font-size: 14px;
+    align-self: flex-start;
+    font-family: 'Roboto';
+    font-weight: 500;
+    margin-top: 0px;
+  }
+  .project-image{
+    min-width: 430px;
+    min-height: 300px;
+    align-self: center;
+  }
+  .project-title{
+    font-size: 24px;
+    font-weight: 600;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0px;
+  }

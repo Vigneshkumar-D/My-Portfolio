@@ -1,0 +1,9 @@
+.link{
+    text-decoration: none;
+    color:black;
+}
+.active-page{
+    cursor: pointer;
+    color: #A020F0;
+    border-bottom: 2px solid #A020F0;
+}
