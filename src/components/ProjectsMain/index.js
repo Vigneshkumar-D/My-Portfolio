@@ -1,7 +1,6 @@
 import {Chrono} from 'react-chrono'
 import Header from '../Header'
 import Footer from '../Footer'
-// import CourseTimelineCard from '../CourseTimelineCard'
 import ProjectTimelineCard from '../ProjectTimelineCard'
 import {
     ProjectsMainContainer,

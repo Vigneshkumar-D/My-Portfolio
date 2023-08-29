@@ -1,5 +1,4 @@
 import { Component } from 'react';
-import { Link } from 'react-router-dom';
 import Header from '../Header'
 import {
     HomeContainer,
@@ -12,7 +11,6 @@ import {
     ImageContainer,
     ProfilePicture,
     ViewProjectButton,
-    ViewProjectAnchor,
     Anchor,
     ExperienceAndProjectsContainer,
     ExperienceContainer,
@@ -37,10 +35,8 @@ class Home extends Component{
         <HomeContainer>
             <Header />
             <HomeSubContainer>
-            {/* <section id="home"> */}
                 <NameAndImgContainer>
                     <NameContainer>
-                   
                         <WelcomeTitle>Hi, I'm</WelcomeTitle>
                         
                         <Designation>Full-Stack Developer</Designation>
@@ -50,12 +46,6 @@ class Home extends Component{
                             and developing server-side applications with Node.js, Express, and databases like SQL. 
                             Dedicated to delivering high-quality code and staying updated with the latest web development trends.
                         </DesignationDescription>
-                        {/* <DesignationDescription>
-                        As a enthusiastic developer, I have a strong problem-solving mindset and proficiency in programming languages 
-                        like Java and Python. As a fresh developer, I excel in Java and Python programming. I enjoy solving problems and crafting 
-                        efficient software solutions with high quality. I'm a team player, passionate about building robust and scalable applications. 
-                        Continuously learning and seeking growth opportunities in my developer journey.
-                        </DesignationDescription> */}
                         <ViewProjectButton>
                             <Anchor href='https://drive.google.com/file/d/1T7jUlBaVIvTVq8KFOuCx_0qEpwtqeHQQ/view?usp=sharing' target="_blank">
                                 View My Resume
@@ -90,16 +80,9 @@ class Home extends Component{
                         </TotalProjectsSubContainer>
                     </AvailabilityContainer>
                 </ExperienceAndProjectsContainer>
-            {/* </section> */}
-            {/* <section style={{width:'100%'}} id="aboutMe"> */}
                 <AboutMe />
-            {/* </section> */}
-            <section style={{width:'100%'}} id="projects">
-                <Projects />
-            </section>
-            {/* <section style={{width:'100%'}} id="skills"> */}
+                    <Projects />
                 <Skills />
-            {/* </section> */}
             </HomeSubContainer> 
             <Footer />   
         </HomeContainer>

@@ -5,7 +5,6 @@ import './index.css'
 const ProjectTimelineCard = props => {
   const {projectDetails} = props
   const {
-    // title,
     projectTitle,
     description,
     imageUrl,

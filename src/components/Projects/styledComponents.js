@@ -8,7 +8,6 @@ export const  ProjectsContainer = styled.div`
     width: 100%;
     height: auto;
     // border: 3px solid #A020F0;
-
 `
 
 export const  TopicContainer = styled.div`

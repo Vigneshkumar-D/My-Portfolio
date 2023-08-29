@@ -50,15 +50,6 @@ export const Name = styled.h1`
     padding-bottom: 2%;
     color: #A020F0;
 `
-export const SelfIntro = styled.p`
-    font-family: "Helvetica Neue", Arial, sans-serif;
-    font-size: 16px;
-    font-weight: 600;
-    line-height: 20px;
-    margin-bottom: 0px;
-    margin-top: 0px;
-    padding-bottom: 0%;
-`
 export const RoleMainContainer = styled.div`
 display: flex;
 flex-direction: row;
@@ -77,12 +68,12 @@ height: 50px;
 export const ButtonContainer = styled.div`
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
     align-item: center;
     width: 80%;
     padding-top: 4%;
     `
-export const ShowMoreButton = styled.a`
+export const ShowMoreButton = styled.button`
     text-decoration: none;
     font-family: "Helvetica Neue", Arial, sans-serif;
     text-align: ;
@@ -118,48 +109,9 @@ export const TechImage = styled.img`
     width: 100%;
     border-top-right-radius: 8px;
     border-bottom-right-radius: 8px;
+  }
 `
-export const ViewResumeButton = styled.button`
-    font-family: "Helvetica Neue", Arial, sans-serif;
-    font-size: 16px;
-    font-weight: 500;
-    align-self: center;
-    color: #A020F0;
-    border: 1px solid #A020F0;
-    background-color: #D7A1F940;
-    border-radius: 7px;
-    padding: 10px;
-    width: 160px;
-    cursor: pointer;
-    // margin-top: 5%;
-    &:hover{
-        background-color: #A020F0;
-        color: #ffffff;
-    }
-`
-export const ViewProjectAnchor = styled.a`
-    // display: flex;
-    // flex-direction: column;
-    // justify-content: center;
-    // align-items: center;
-    // text-decoration: none;
-    // font-family: "Helvetica Neue", Arial, sans-serif;
-    // font-size: 16px;
-    // font-weight: 600;
-    // text-align: center;
-    // color: #A020F0;
-    // background-color: #ffffff;
-    // border: 1px solid #A020F0;
-    // border-radius: 7px;
-    // cursor: pointer;
-    // width: 165px;
-    // padding: 8px;
-    // height: 25px;
-    // cursor: pointer;
-    // &:hover{
-    //     background-color: #A020F0;
-    //     color: #ffffff;
-    // }
+export const ViewProjectButton = styled.button`
     text-decoration: none;
     font-family: "Helvetica Neue", Arial, sans-serif;
     text-align: center;
@@ -170,9 +122,8 @@ export const ViewProjectAnchor = styled.a`
     background-color: #D7A1F940;
     border-radius: 7px;
     padding: 10px;
-    width: 150px;
+    width: 165px;
     cursor: pointer;
-    // margin-top: 5%;
     &:hover{
         background-color: #A020F0;
         color: #ffffff;
