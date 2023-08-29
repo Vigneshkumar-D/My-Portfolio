@@ -33,9 +33,8 @@ const Header = () =>{
 
         return(
             <HeaderContainer>
-                <Link className="link" to="/" style={{'paddingTop': '1%'}} smooth={true} duration={500}>
-                {/* <AppLogo src="https://res.cloudinary.com/da7ik4khq/image/upload/v1691685054/4124842_cktgwk.jpg" alt="App Logo" /> */}
-                    <AppLogo src="https://res.cloudinary.com/da7ik4khq/image/upload/v1691336665/Portfolio/portfolio-paper-poster-with-colorful-brush-strokes-vector-21849131_ebw1q7.jpg" alt="App Logo" />
+                <Link className="link" to="/" smooth={true} duration={500}>
+                    <AppLogo src="https://res.cloudinary.com/da7ik4khq/image/upload/v1693301237/Portfolio/1000_F_406919161_J0pGxe1sewqnk5dnvyRS77MKmEd6SVa_cifwnq.jpg" alt="App Logo" />
                 </Link>
                 <NavContainer>
                     <Link className='link' to="/">

@@ -1,5 +1,5 @@
 import { Component } from 'react';
-import { Link } from 'react-scroll';
+import { Link } from 'react-router-dom';
 import Header from '../Header'
 import {
     HomeContainer,
@@ -13,6 +13,7 @@ import {
     ProfilePicture,
     ViewProjectButton,
     ViewProjectAnchor,
+    Anchor,
     ExperienceAndProjectsContainer,
     ExperienceContainer,
     ExperienceImage,
@@ -39,8 +40,8 @@ class Home extends Component{
             {/* <section id="home"> */}
                 <NameAndImgContainer>
                     <NameContainer>
-                    {/* <WelcomeTitle>Hi, I'm</WelcomeTitle> */}
-                        <WelcomeTitle>Welcome, I'm</WelcomeTitle>
+                   
+                        <WelcomeTitle>Hi, I'm</WelcomeTitle>
                         
                         <Designation>Full-Stack Developer</Designation>
                         <DesignationDescription>
@@ -56,11 +57,9 @@ class Home extends Component{
                         Continuously learning and seeking growth opportunities in my developer journey.
                         </DesignationDescription> */}
                         <ViewProjectButton>
-                            <Link style={{width: '300px'}} to="projects" smooth={true} duration={500}>
-                                <ViewProjectAnchor>
-                                    View My Projects
-                                </ViewProjectAnchor>
-                            </Link> 
+                            <Anchor href='https://drive.google.com/file/d/1T7jUlBaVIvTVq8KFOuCx_0qEpwtqeHQQ/view?usp=sharing' target="_blank">
+                                View My Resume
+                            </Anchor>
                         </ViewProjectButton>
                     </NameContainer>
                     <ImageContainer>

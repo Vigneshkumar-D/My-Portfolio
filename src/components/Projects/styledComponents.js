@@ -63,17 +63,19 @@ export const CreativeWorkTitle = styled.h1`
     font-weight: 600;
     margin-bottom: 0px;
     margin-top: 0px;
-    padding-bottom: 5%;
+    padding-bottom: 30px;
     text-align: left:
+    color: #ffffff;
 `
 export const CreativeWorkDes = styled.p`
     font-family: "Helvetica Neue", Arial, sans-serif;
+    color: #ffffff;
     font-size: 20px;
     font-weight: 600;
     margin-bottom: 0px;
     margin-top: 0px;
     line-height: 25px;
-    padding-bottom: 5%;
+    padding-bottom: 15%;
     text-align: left:
 `
 
@@ -84,7 +86,7 @@ export const Span = styled.span`
     margin-bottom: 0px;
     margin-top: 0px;
     padding-bottom: 2%;
-    color: #A020F0;
+    color: #ffffff;
 `
 export const ProjectsRightContainer = styled.div`
     display: flex;
@@ -104,7 +106,6 @@ export const ProjectBottomContainer = styled.div`
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    margin-top: 5%;
     height: 550px;
     border-radius: 8px;
     background-color: #A020F0;
@@ -113,10 +114,11 @@ export const ProjectBottomContainer = styled.div`
 export const ProjectBottomSubContainer = styled.div`
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
+    justify-content: center;
+    // align-items: center;
     padding-left: 3%;
-    height: 30%;
+    padding-right:1%;
+    height: 100%;
 `
 export const RecentWorkTitle = styled.h1`
 font-family: "Helvetica Neue", Arial, sans-serif;
@@ -141,6 +143,7 @@ export const ShowMoreButton = styled.a`
     width: 150px;
     cursor: pointer;
     margin-top: 5%;
+    align-self: flex-end;
     &:hover{
         background-color: #ffffff;
         color: #B34DF3;

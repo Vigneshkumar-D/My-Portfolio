@@ -37,9 +37,9 @@ align-items: center;
 height: 130px;
 width: 130px;
 padding: 3%;
-border: 1px solid red;
+// border: 1px solid red;
 // box-sizing: content-box;
-background-color: #2C3227;
+// background-color: #2C3227;
 border-radius: 8px;
 box-shadow: 0px 3px 7px 3px #e2e8f0;
 margin-top: 0%;
@@ -73,8 +73,8 @@ align-items: center;
 height: 130px;
 width: 130px;
 padding: 3%;
-border: 2px solid #A020F0;
-background-color: #A020F0;
+// border: 2px solid #A020F0;
+// background-color: #A020F0;
 border-radius: 8px;
 box-shadow: 0px 3px 7px 3px #e2e8f0;
 &:hover {
@@ -88,6 +88,7 @@ display: flex;
 flex-direction: column;
 width: 88%;
  align-self: center;
+ padding-bottom: 3%;
 `
 
 export const DatabaseContainer = styled.div`
@@ -113,7 +114,7 @@ height: 130px;
 width: 130px;
 padding: 3%;
 margin-right: 4%;
-background-color: #2C3227;
+// background-color: #2C3227;
 border-radius: 8px;
 box-shadow: 0px 3px 7px 3px #e2e8f0;
 margin-top: 0%;
@@ -131,7 +132,7 @@ font-family: "Helvetica Neue", Arial, sans-serif;
 export const SkillName = styled.h1`
 font-size: 20px;
 line-height: 20px;
-color:#ffffff;
+// color:#ffffff;
 margin-bottom: 0px;
 font-family: "Helvetica Neue", Arial, sans-serif;
 `

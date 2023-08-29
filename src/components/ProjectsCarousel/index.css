@@ -19,3 +19,6 @@
     height: 450px;
     max-width: 100%; 
 }
+.project-link{
+    text-decoration: none;
+}

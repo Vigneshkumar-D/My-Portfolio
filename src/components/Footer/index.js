@@ -15,7 +15,7 @@ const Footer = () => {
     <FooterContainer>
       <FooterContent>
         <FooterLogo>
-            <img className='app-logo-footer' src="https://res.cloudinary.com/da7ik4khq/image/upload/v1691336665/Portfolio/portfolio-paper-poster-with-colorful-brush-strokes-vector-21849131_ebw1q7.jpg" alt="App Logo" />
+            <img className='app-logo-footer' src="https://res.cloudinary.com/da7ik4khq/image/upload/v1693301237/Portfolio/1000_F_406919161_J0pGxe1sewqnk5dnvyRS77MKmEd6SVa_cifwnq.jpg" alt="App Logo" />
         </FooterLogo>
         <SocialLinks>
         <h3 className='footer-titles'>Connect With Me</h3>
@@ -31,30 +31,39 @@ const Footer = () => {
             <h3 className='footer-titles'>Quick Links</h3>
             <ul className='quick-links-list'>
               <div className='quick-links-sub-container'>
-                  <img className='mail-gif' src="https://res.cloudinary.com/da7ik4khq/image/upload/v1692975284/Portfolio/home_akx6uk.gif" alt="Home Pic"/>
+                  <div className='gif-container'>
+                    <img className='mail-gif' src="https://res.cloudinary.com/da7ik4khq/image/upload/v1692975284/Portfolio/home_akx6uk.gif" alt="Home Pic"/>
+                  </div>
                   <li className='quick-links-list-item'><a className='quick-links-list-item' href="/">Home</a></li>
               </div>
               <div className='quick-links-sub-container'>
-                  <img className='mail-gif' src="https://res.cloudinary.com/da7ik4khq/image/upload/v1692977960/Portfolio/vlogger_c3evtx.gif" alt="About Pic"/>
+                  <div className='gif-container'>
+                    <img className='mail-gif' src="https://res.cloudinary.com/da7ik4khq/image/upload/v1692977960/Portfolio/vlogger_c3evtx.gif" alt="About Pic"/>
+                  </div>
                   <li className='quick-links-list-item'><a className='quick-links-list-item' href="/about-me">About Me</a></li>
               </div>
               <div className='quick-links-sub-container'>
-                  <img className='mail-gif' src="https://res.cloudinary.com/da7ik4khq/image/upload/v1692975275/Portfolio/work_gsz5gw.gif" alt="Projects Pic"/>
+                  <div className='gif-container'>
+                    <img className='mail-gif' src="https://res.cloudinary.com/da7ik4khq/image/upload/v1692975275/Portfolio/work_gsz5gw.gif" alt="Projects Pic"/>
+                  </div>
                   <li className='quick-links-list-item'><a className='quick-links-list-item' href="/projects">Projects</a></li>
               </div>
               <div className='quick-links-sub-container'>
-                  <img className='mail-gif' style={{height: '38px', width: '38px' }} src="https://res.cloudinary.com/da7ik4khq/image/upload/v1692975270/Portfolio/skills_cmleut.gif" alt="Skills Pic"/>
+                  <div className='gif-container'>
+                    <img className='mail-gif' src="https://res.cloudinary.com/da7ik4khq/image/upload/v1692975270/Portfolio/skills_cmleut.gif" alt="Skills Pic"/>
+                  </div>
                   <li className='quick-links-list-item'><a className='quick-links-list-item' href="/skills">Skills</a></li>
               </div>
               <div className='quick-links-sub-container'>
-                  <img className='mail-gif' src="https://res.cloudinary.com/da7ik4khq/image/upload/v1692977821/Portfolio/add_ixzyqy.gif" alt="Contacts Pic"/>
+                  <div className='gif-container'>
+                    <img className='mail-gif' src="https://res.cloudinary.com/da7ik4khq/image/upload/v1692977821/Portfolio/add_ixzyqy.gif" alt="Contacts Pic"/>
+                  </div>
                   <li className='quick-links-list-item'><a className='quick-links-list-item' href="/contact">Contact</a></li>
               </div>
           </ul>
         </QuickLinks>
         <ContactInfo>
           <h3 className='footer-titles'>Contact Me</h3>
-    
           <div className='contact-sub-container'>
             <img className='contact-mail-gif' src="https://res.cloudinary.com/da7ik4khq/image/upload/v1692973417/Portfolio/email_jvp4fq.gif" alt="Gmail Pic"/>
             <p className='contact-me-email'><a className='contact-me-email' href="mailto:vigneshkumar.d2797@gmail.com">vigneshkumar.d2797@gmail.com</a></p>

@@ -80,33 +80,29 @@ export const ProfilePicture =  styled.img`
 export const ViewProjectButton = styled.button`
     background-color: transparent;
     border: none;
-    // border: 1px solid #A020F0;
     margin-top: 5%;
+    height-auto;
+    // width: 220px;
 `
-export const ViewProjectAnchor = styled.a`
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+export const Anchor = styled.a`
     text-decoration: none;
     font-family: "Helvetica Neue", Arial, sans-serif;
+    text-align: center;
     font-size: 16px;
     font-weight: 600;
-    text-align: center;
     color: #A020F0;
-    background-color: #ffffff;
-    border: 1px solid #A020F0;
+    border: 2px solid #A020F0;
+    background-color: #D7A1F940;
     border-radius: 7px;
-    cursor: pointer;
-    width: 165px;
-    padding: 8px;
-    height: 25px;
+    padding: 10px;
+    min-width: 160px;
     cursor: pointer;
     &:hover{
         background-color: #A020F0;
         color: #ffffff;
     }
 `
+
 export const ExperienceAndProjectsContainer = styled.div`
     display: flex;
     flex-direction: row;

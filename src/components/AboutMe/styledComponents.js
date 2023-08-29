@@ -137,7 +137,29 @@ export const ViewResumeButton = styled.button`
         color: #ffffff;
     }
 `
-export const Anchor = styled.a`
+export const ViewProjectAnchor = styled.a`
+    // display: flex;
+    // flex-direction: column;
+    // justify-content: center;
+    // align-items: center;
+    // text-decoration: none;
+    // font-family: "Helvetica Neue", Arial, sans-serif;
+    // font-size: 16px;
+    // font-weight: 600;
+    // text-align: center;
+    // color: #A020F0;
+    // background-color: #ffffff;
+    // border: 1px solid #A020F0;
+    // border-radius: 7px;
+    // cursor: pointer;
+    // width: 165px;
+    // padding: 8px;
+    // height: 25px;
+    // cursor: pointer;
+    // &:hover{
+    //     background-color: #A020F0;
+    //     color: #ffffff;
+    // }
     text-decoration: none;
     font-family: "Helvetica Neue", Arial, sans-serif;
     text-align: center;

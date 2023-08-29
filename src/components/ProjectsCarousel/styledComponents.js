@@ -5,6 +5,7 @@ export const  ProjectItemContainer = styled.div`
     flex-direction: column;
     justify-content: space-between;
     // height: 300px;
+    outline: none;
     cursor: pointer;
     padding-left:2%;
 `

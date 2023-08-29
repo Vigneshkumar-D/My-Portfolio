@@ -15,9 +15,10 @@ import {
     Role,
     ButtonContainer,
     TechImage,
+    ViewProjectAnchor,
     // ShowMoreButton,
     // ViewResumeButton,
-    Anchor
+    // Anchor
 } from './styledComponents'
 import './index.css'
 
@@ -35,7 +36,7 @@ const AboutMe = () => {
             <AboutMeSubContainer>
                 <AboutMeLeftContainer>
                     <Name>Hello!</Name>
-                    <Name>My name is Vigneshkumar D</Name>
+                    <Name>I'm Vigneshkumar D</Name>
                     {/* <SelfIntro> 
                         Hailing from Coimbatore. In 2019, I successfully attained a Bachelor's Degree in Computer Science and Engineering 
                         from Sree Sakthi Engineering College. Following my graduation, I embarked on a career in the banking sector while 
@@ -69,9 +70,12 @@ const AboutMe = () => {
                     
                     <ButtonContainer>                       
                     {/* <ViewResumeButton type='button'> */}
-                    <Anchor href='https://drive.google.com/file/d/1T7jUlBaVIvTVq8KFOuCx_0qEpwtqeHQQ/view?usp=sharing' target="_blank">
-                            View My Resume
-                        </Anchor>
+                    <Link  style={{width: '300px', textDecoration: 'none'}} to="projects" smooth={true} duration={500}>
+                                <ViewProjectAnchor>
+                                    View My Projects
+                                </ViewProjectAnchor>
+                            </Link> 
+                    
                     {/* </ViewResumeButton> */}
                         <Link to="/about-me" className="know-more-link"> Know More
                             {/* <ShowMoreButton>Know More</ShowMoreButton> */}

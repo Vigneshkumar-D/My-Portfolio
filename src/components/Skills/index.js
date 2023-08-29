@@ -106,11 +106,11 @@ const Skills = () => {
                     <OtherSkillsTitle>Others</OtherSkillsTitle>
                     <BackEndSubContainer style={{justifyContent:'flex-start'}}>
                         <OtherSkillsSubContainer>
-                            <SkillImage src="https://res.cloudinary.com/da7ik4khq/image/upload/v1691432385/Portfolio/Skills/1200px-OOP.svg_hkdnmf.png" alt="HTML" />
+                            <SkillImage src="https://res.cloudinary.com/da7ik4khq/image/upload/v1691432385/Portfolio/Skills/1200px-OOP.svg_hkdnmf.png" alt="OOPs" />
                             <SkillName>OOPs</SkillName>
                         </OtherSkillsSubContainer>
                         <OtherSkillsSubContainer>
-                            <SkillImage src="" alt="CSS" />
+                            <SkillImage style={{borderRadius: '5px'}} src="https://res.cloudinary.com/da7ik4khq/image/upload/v1693307966/Portfolio/Skills/channels4_profile_osnzj8.jpg" alt="DSA" />
                             <SkillName>DSA</SkillName>
                         </OtherSkillsSubContainer>
                     </BackEndSubContainer>

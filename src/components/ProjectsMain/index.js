@@ -86,7 +86,7 @@ const timelineItemsList = [
       id: '7bc3f006-f0f1-4574-924b-17c480556727',
       categoryId: 'PROJECT',
       title: 'AUGUST 2023',
-      projectTitle: 'Dashboard',
+      projectTitle: 'Board',
       description:
         'Crafted a Board app focused on data visualization, employing pie and line charts. Through React components, users can create, customize, and analyze data presentations. Seamlessly integrating chart libraries, the app provides insightful visualizations for better data comprehension. This project enhances data-driven decision-making through engaging and informative visual representations.',
       imageUrl:
@@ -105,6 +105,49 @@ const timelineItemsList = [
       imageUrl: 'https://res.cloudinary.com/da7ik4khq/image/upload/v1693282600/Portfolio/Projects/Screenshot_1423_wot9vq.png',
       duration: '3 hrs',
       projectUrl: 'https://foodmunvignesh.ccbp.tech/',
+    },
+    {
+      id: 'e093c08a-a2ae-413a-814b-e7c83f5f2ac3',
+      categoryId: 'PROJECT',
+      title: 'DECEMBER 2022',
+      projectTitle: 'Twitter Clone(Backend)',
+      description:
+        'Created the backend for a Twitter Clone, enabling users to engage with posts and follow others. Implemented server-side logic for user authentication, post handling, and social interactions. Designed APIs for posting tweets, following users, and accessing timelines. This backend works seamlessly, offering a social media platform with essential functionalities akin to Twitter.',
+      imageUrl: 'https://res.cloudinary.com/da7ik4khq/image/upload/v1693309251/Portfolio/Projects/4902917_s0lt9l.jpg',
+      duration: '4 hrs',
+      projectUrl: 'https://github.com/Vigneshkumar-D/Twitter-Application.git',
+    },
+    {
+      id: 'e093c08a-a2ae-413a-814b-e7c83f5f2ac3',
+      categoryId: 'PROJECT',
+      title: 'MARCH 2023',
+      projectTitle: 'Music Library App(Backend)',
+      description:
+        'Developed the backend for a Music Library App, enabling efficient management and organization of music content. Leveraged server-side technologies to handle data storage, retrieval, and user interactions. Implemented robust APIs for functions like adding, searching, and categorizing tracks. The backend ensures seamless integration with the frontend, providing a comprehensive solution for music enthusiasts to manage their collection effectively.',
+      imageUrl: 'https://res.cloudinary.com/da7ik4khq/image/upload/v1693309154/Portfolio/Projects/2208.i602.010.S.m009.c12.audio_books_flat_illustration_n1zzsf.jpg',
+      duration: '3 hrs',
+      projectUrl: 'https://github.com/Vigneshkumar-D/Music-Library-3-Spring-Boot.git',
+    },
+    {
+      id: 'e093c08a-a2ae-413a-814b-e7c83f5f2ac3',
+      categoryId: 'PROJECT',
+      title: 'MARCH 2023',
+      projectTitle: 'Recipe Book(Backend)',
+      description:
+        'Developed Money Manager, a frontend project enabling effortless financial tracking and budgeting. Leveraged React to design interactive UI components for user-friendly experience. The project provides a practical tool for effective money management.',
+      imageUrl: 'https://res.cloudinary.com/da7ik4khq/image/upload/v1693310582/Portfolio/Projects/man-chef-standing-near-cake-recipe-cook-book_82574-9745_mbz50j.avif',
+      duration: '3 hrs',
+      projectUrl: 'https://github.com/Vigneshkumar-D/Recipe-Book-Spring-Boot.git',
+    },
+    {
+      id: 'e093c08a-a2ae-413a-814b-e7c83f5f2ac3',
+      categoryId: 'PROJECT',
+      title: 'AUGUST 2023',
+      projectTitle: 'Equity Data Automation Analysis',
+      description: 'This project aims to automate the process of downloading daily Bhav Copy files for equity data from the BSE India website, specifically for the month of July 2023. The collected data will be organized and stored in a SQL database, enabling efficient analysis and querying. Additionally, the project will focus on optimizing query response times for enhanced performance.',
+      imageUrl: 'https://res.cloudinary.com/da7ik4khq/image/upload/v1693311422/Portfolio/Projects/4905827_cqyeii.jpg',
+      duration: '2 Days',
+      projectUrl: 'https://github.com/Vigneshkumar-D/equity-data-automation-analysis',
     },
   ]
 

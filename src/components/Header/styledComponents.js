@@ -9,7 +9,7 @@ export const HeaderContainer = styled.div`
     padding-right: 7%;
     // padding-top: 1%;
     width: 86%;
-    height: 7%;
+    height: 7.5%;
     overflow: hidden;
     background-color: #ffffff;
     position: fixed;
@@ -17,13 +17,13 @@ export const HeaderContainer = styled.div`
     // box-shadow: 0px 3px 7px 3px #e2e8f0;
 ` 
 export const AppLogo = styled.img`
-    height: 68px; 
-    width: 200px;
+    height: 70px;
+    padding: 2px; 
+    width: 60px;
     align-self: center;
     cursor: pointer;
-    padding-top: 1%;
-    padding-bottom: 1%;
-
+    // padding-top: 1%;
+    // padding-bottom: 1%;
     box-sizing: border-box;
 `
 export const NavContainer = styled.nav`

@@ -10,6 +10,7 @@ export const FooterContainer = styled.footer`
     padding-left: 7%;
     padding-right: 7%;
     width: 100%;
+    color: #ffffff;
     max-height: 350px;
     box-sizing: border-box;
 `
@@ -20,9 +21,9 @@ export const FooterContent = styled.div`
   width: 100%;
   max-height: 300px;
   justify-content: space-between;
-  background-color: #ffffff;
+  background-color: #000000;
   margin: 0;
-  padding: 2%;
+  padding: 2% 0% 2% 0;
   margin-right: 0px;
   border-radius: 8px 8px 0px 0px;
   box-sizing: border-box;
@@ -33,21 +34,20 @@ export const ContactInfo = styled.div`
   box-sizing: border-box;
   padding-left: 2%;
   padding: 0 2% 0 0;
-  color: #000000;
+  // color: #000000;
   min-width: 25%;
 `
 export const FooterLogo = styled.div`
 box-sizing: border-box;
   padding: 2%;
   min-width: 15%;
-  color: #000000;
   padding: 0 2% 0 0;
 `
 export const SocialLinks = styled.div`
 box-sizing: border-box;
   padding: 2%;
-  min-width: 25%;
-  color: #000000;
+  min-width: 23%;
+  // color: #000000;
   padding: 0 2% 0 0;
 `
 
@@ -57,7 +57,7 @@ flex-direction: column;
 box-sizing: border-box;
   padding: 2%;
   min-width: 25%;
-  color: #000000;
+  // color: #000000;
   padding: 0 2% 0 0;
 `
 
@@ -67,5 +67,5 @@ export const FooterBottom = styled.div`
   text-align: center;
   border-radius: 0px 0px 8px 8px;
   background-color: #222;
-  color: #ffffff;
+  // color: #ffffff;
 `
