@@ -6,10 +6,10 @@ import './index.css'
 
 import {
     ProjectItemContainer,
-    ProjectItemsLeftContainer,
-    ProjectItemsRightContainer,
+//     ProjectItemsLeftContainer,
+//     ProjectItemsRightContainer,
     ProjectTitle,
-    ProjectDes,
+//     ProjectDes,
     ProjectImg
 } from './styledComponents'
 

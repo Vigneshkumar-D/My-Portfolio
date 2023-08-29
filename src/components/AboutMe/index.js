@@ -8,14 +8,14 @@ import {
     AboutMeLeftContainer,
     AboutMeRightContainer,
     Name,
-    SelfIntro,
+    // SelfIntro,
     RoleMainContainer,
     RoleContainer,
     TickImage,
     Role,
     ButtonContainer,
     TechImage,
-    ShowMoreButton,
+    // ShowMoreButton,
     // ViewResumeButton,
     Anchor
 } from './styledComponents'

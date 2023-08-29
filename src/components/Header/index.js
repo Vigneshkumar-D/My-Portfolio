@@ -10,7 +10,6 @@ import {
     ContactMe
 } from './styledComponents'
 import './index.css'
-import { Component } from 'react';
 
 const Header = () =>{
 
