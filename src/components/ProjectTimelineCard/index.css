@@ -28,32 +28,45 @@
     min-width: 50px;
     margin-top: 0px;
   }
-  .link-text {
+  .project-link-text {
     font-size: 14px;
     text-decoration: none;
     font-family: 'Roboto';
     font-weight: 500;
-    /* cursor: pointer; */
+    align-self: flex-end;
   }
-  .visit-button{
-    background-color: transparent;
+  project-link-text:hover{
+    background-color: #000000;
+    color: #ffffff;
+  }
+  .project-visit-button{
+    background-color: yellow;
     border-radius: 5px;
     padding: 5px;
     border: 1px solid #000000;
     align-self: flex-end;
     width: 80px;
-    cursor: pointer;
+    height: 30px;
+    font-size: 16px;
     &:hover{
+      cursor: pointer;
       background-color: #000000;
+      color: #ffffff;
     }
   }
+  
+  /* .project-visit-button:hover{
+    cursor: pointer;
+   
+  } */
   .description {
     text-align: left;
-    font-size: 14px;
+    font-size: 16px;
     align-self: flex-start;
     font-family: 'Roboto';
     font-weight: 500;
-    margin-top: 0px;
+    margin: 0px;
+    padding-bottom: 3%;
   }
   .project-image{
     min-width: 430px;
